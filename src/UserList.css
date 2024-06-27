@@ -1,0 +1,62 @@
+/* src/UserList.css */
+.user-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-input, .sort-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .sort-button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sort-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    background-color: black;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .past-searches-container {
+    margin-top: 20px;
+  }
+  
+  .past-searches-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .past-search-item {
+    background-color:black;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
